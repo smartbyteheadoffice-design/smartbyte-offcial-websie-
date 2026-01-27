@@ -235,3 +235,21 @@ footer {
     flex-wrap: wrap;
   }
 }
+/* JS Animation Support */
+section,
+.skill-card,
+.service-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+nav a.active {
+  color: #000;
+  border-bottom: 2px solid #2f4f2f;
+}
