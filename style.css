@@ -17,7 +17,8 @@
 }
 
 body {
-  font-family: 'Playwrite England Joined Guides', cursive;
+  font-family: 'Merriweather', serif;
+
   background: var(--cream);
   color: var(--text);
   line-height: 1.8;
